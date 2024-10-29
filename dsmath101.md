@@ -1,4 +1,7 @@
 
+# **Fórmulas estadística**
+=======
+
 ## Luisa Gabriela Marin 
 
 ## Varianza 
@@ -7,6 +10,7 @@
 # Santiago Morales
 
 # Fórmulas estadística
+
 
 ## Promedio :
 
@@ -20,6 +24,9 @@ $[
 ## Covarianza 
 
 
+## **Promedio:**
+=======
+
 
 La covarianza $( \text{Cov}(X, Y) )$ entre dos variables aleatorias $( X ) y ( Y )$ se define como:
 
@@ -31,6 +38,11 @@ $[
 
 La varianza $\sigma^2$ de un conjunto de datos $x_1$
 
+
+## Daniel Vallejo
+
+## **Varianza:**
+=======
 $\sigma^2 = \frac{1}{n} \sum_{i=1}^{n} (x_i - \bar{x})^2$
 ## sharek Marin
 
@@ -85,13 +97,14 @@ $f(x) = \frac{1}{\sqrt{2 \pi \sigma^2}} e^{-\frac{(x - \mu)^2}{2 \sigma^2}}$
 
 Varianza:
 
+
 $\sigma^2 = \frac{\sum_{i=1}^{N} (x_i - \bar{x})^2}{N}$
 
-Covarianza: 
+## **Covarianza:** 
 
 $\text{Cov}(X, Y) = \frac{1}{n-1} \sum_{i=1}^{n} (x_i - \bar{x})(y_i - \bar{y})$
 
-Distribucion normal:
+## **Distribucion normal:**
 
 $f(x) = \frac{1}{\sqrt{2 \pi \sigma^2}} e^{-\frac{(x - \mu)^2}{2 \sigma^2}}$
 =======
