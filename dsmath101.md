@@ -50,7 +50,7 @@ La varianza $\sigma^2$ de un conjunto de datos $x_1$
 =======
 $\sigma^2 = \frac{1}{n} \sum_{i=1}^{n} (x_i - \bar{x})^2$
 
-## sharek Marin
+## Cesar Lopez
 
 
 varianza:
@@ -129,15 +129,18 @@ $f(x) = \frac{1}{\sqrt{2 \pi \sigma^2}} e^{-\frac{(x - \mu)^2}{2 \sigma^2}}$
 
 Varianza:
 
-$\sigma^2 = \frac{\sum_{i=1}^{N} (x_i - \bar{x})^2}{N}$
+$$\sigma^2 = \frac{1}{N} \sum_{i=1}^{N} (x_i - \mu)^2$$
+
 
 Covarianza: 
 
-$\text{Cov}(X, Y) = \frac{1}{n-1} \sum_{i=1}^{n} (x_i - \bar{x})(y_i - \bar{y})$
+$$\text{Cov}(X, Y) = \frac{1}{N} \sum_{i=1}^{N} (x_i - \bar{X})(y_i - \bar{Y})$$
+
 
 Distribucion normal:
 
-$f(x) = \frac{1}{\sqrt{2 \pi \sigma^2}} e^{-\frac{(x - \mu)^2}{2 \sigma^2}}$
+$$f(x | \mu, \sigma^2) = \frac{1}{\sqrt{2 \pi \sigma^2}} \exp \left( -\frac{(x - \mu)^2}{2 \sigma^2} \right)$$
+
 
 =======
 $f(x) = \frac{1}{\sqrt{2 \pi \sigma^2}} e^{-\frac{(x - \mu)^2}{2 \sigma^2}}$
