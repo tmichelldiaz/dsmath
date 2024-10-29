@@ -24,8 +24,11 @@ $[
 ## Covarianza 
 
 
+## Esteban Leiva
+=======
 ## **Promedio:**
 =======
+
 
 
 La covarianza $( \text{Cov}(X, Y) )$ entre dos variables aleatorias $( X ) y ( Y )$ se define como:
