@@ -41,4 +41,18 @@ La distribución normal $N(\mu, \sigma^2)$ es una distribución de probabilidad 
 $$ f(x) = \frac{1}{\sqrt{2 \pi \sigma^2}} e^{-\frac{1}{2} \left(\frac{x-\mu}{\sigma}\right)^2} $$
 $f(x) = \frac{1}{\sqrt{2 \pi \sigma^2}} e^{-\frac{(x - \mu)^2}{2 \sigma^2}}$
 
+
+## Nicolas Oicata
+
+varianza:
+$\sigma^2 = \frac{\sum_{i=1}^{N} (x_i - \bar{x})^2}{N}$
+
+Covarianza: 
+$\text{Cov}(X, Y) = \frac{1}{n-1} \sum_{i=1}^{n} (x_i - \bar{x})(y_i - \bar{y})$
+
+Distribucion normal:
+$f(x) = \frac{1}{\sqrt{2 \pi \sigma^2}} e^{-\frac{(x - \mu)^2}{2 \sigma^2}}$
+
+=======
 donde $\mu$ es la media y $\sigma$ es la desviación estándar de la distribución.
+
