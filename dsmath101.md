@@ -173,3 +173,33 @@ $cov(x,y) = \frac{\sum_{i=1}^n((x_i-\mu_{x})(y_i-\mu_{y}))}{n}$
 La distribución normal para una variable $x$ está dada por la ecuación:
 
 $X \sim \frac{1}{\sqrt{2\pi\sigma^2}}\exp{-\frac{(x_i-\mu_x)^2}{2\sigma^2}}$
+
+## Tania Díaz
+
+**Promedio**
+
+El promedio $\overline{x}$ de un conjunto de datos $x_1$
+
+$$
+\overline{x} = \frac{1}{n} \sum_{i=1}^{n} x_i
+$$
+
+**Varianza**
+
+$$
+\sigma^2 = \frac{\sum_{i=1}^{n} (x_i - \overline{x})^2}{n}
+$$
+
+
+**Covarianza**
+
+$$
+\text{Cov}(X, Y) = \frac{\sum_{i=1}^{N} (x_i - \overline{x})(y_i - \overline{y})}{n}
+$$
+
+**Distribución Normal**
+
+$$
+f(x) = \frac{e^{\frac{-(x - \mu)^2}{2\sigma^2}}}{\sqrt{2\pi\sigma^2}}
+$$
+
