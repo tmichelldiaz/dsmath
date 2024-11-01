@@ -26,20 +26,41 @@ $f(x) = \frac{1}{\sqrt{2 \pi \sigma^2}} e^{-\frac{(x - \mu)^2}{2 \sigma^2}}$
 
 ## Tania Díaz
 
-\textbf{Varianza Poblacional}
+**Promedio**
 
+El promedio $\overline{x}$ de un conjunto de datos $x_1$
+
+$$
+\overline{x} = \frac{1}{n} \sum_{i=1}^{n} x_i
+$$
+
+**Varianza Poblacional**
+
+$$
 \sigma^2 = \frac{\sum_{i=1}^{n} (x_i - \overline{x})^2}{n}
+$$
 
-\textbf{Varianza Muestral}
+**Varianza Muestral**
+
+$$
 \sigma^2 = \frac{\sum_{i=1}^{n} (x_i - \overline{x})^2}{n-1}
-\textbf{Covarianza Poblacional}
+$$
 
+**Covarianza Poblacional**
+
+$$
 \text{Cov}(X, Y) = \frac{\sum_{i=1}^{N} (x_i - \overline{x})(y_i - \overline{y})}{n}
+$$
 
-\textbf{Covarianza Muestral}
+**Covarianza Muestral**
+
+$$
 \text{Cov}(X, Y) = \frac{\sum_{i=1}^{N} (x_i - \overline{x})(y_i - \overline{y})}{n-1}
+$$
 
+**Distribución Normal**
 
-\textbf{Diatribución Normal}
-
+$$
 f(x) = \frac{e^{\frac{-(x - \mu)^2}{2\sigma^2}}}{\sqrt{2\pi\sigma^2}}
+$$
+
